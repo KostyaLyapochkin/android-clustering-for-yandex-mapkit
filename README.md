@@ -28,7 +28,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.65apps:android-clustering-for-yandex-mapkit:v0.1'
+	        implementation 'com.github.65apps:android-clustering-for-yandex-mapkit:v0.2'
 	}
 ___
  
