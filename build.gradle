@@ -34,6 +34,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlinVersion}"
         classpath "de.mannodermaus.gradle.plugins:android-junit5:${versions.junit5PluginVersion}"
         classpath "org.kt3k.gradle.plugin:coveralls-gradle-plugin:${versions.coverallsVersion}"
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
