@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android'
 apply plugin: 'de.mannodermaus.android-junit5'
 apply plugin: 'com.github.kt3k.coveralls'
 apply from: "$project.rootDir/jacoco.gradle"
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.65apps'
+version = '0.1'
 
 android {
     compileSdkVersion 28
